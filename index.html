@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangadhar - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+
+        body{
+            background-color: rgb(0,0,33);
+            color:white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            height: 80px;
+            background-color:rgb(15, 15, 53);
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+            nav ul li a:hover{
+            
+            color: rgb(119, 119, 239);
+            font-size: 1.01rem;
+
+        }
+        main hr{
+            border: 0;
+            background:#9c97f1;
+            height:1.2px;
+            margin:40px 84px;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+           
+        }
+       
+      .firstSection > div{
+            width:30%;
+        }
+            .leftSection{
+                font-size: 2.5rem;
+                margin: 30px 0;
+            }
+            .leftSection .btn{
+                    background-color: rgb(15, 15, 53);
+                    
+                    padding: 15px;
+                    margin:10px;
+                   
+                    color:rgb(232, 232, 232);
+                    border-radius: 10px;
+            }
+                .btn:active{
+                    color: #ffbf00;
+                }
+                .btn:focus{
+                    color: rgb(250, 250, 67);
+                }
+            
+                .btn:hover{
+                    color:rgb(128, 142, 115);
+                    transition: 0.7s;
+                }
+                    
+                            
+            .rightSection img{
+                width:80%; 
+
+            }
+            
+            .purple{
+                color:rbg(147, 103, 188);
+            }
+            .text-gray{
+                color:gray;
+            }
+            #element{
+                color:rgb(147, 103, 188);
+            }   
+            
+            .secondSection{
+                max-width: 90vw;
+                margin:auto;
+                height:180vh;
+            }
+            .secondSection h1{
+                font-size:1.9rem ;
+            }
+            .secondSection .box{
+                background-color: white;
+                width: 80vw;
+                height: 1px;
+                margin: 28px 0;
+                display: flex;
+            }
+            .secondSection .Vertical{
+                height: 80px;
+                width: 1px;
+                background-color: white;
+                margin: 0 100px;
+
+            }
+            .image-top{
+                width:23px;
+                position:relative;
+                top: 35px;
+                left: -9px;
+
+            }
+            .Vertical-title{
+                position:relative;
+                top: 46px;
+                
+                width: 120px;
+
+            }
+            .Vertical-desc{
+                position: relative;
+                top: 70px;
+                color:gray;
+                width: 120px;
+                font-size: 9px;
+            }
+            footer{
+                background-color:rgb(15, 10, 34);
+                height:233px;
+            }
+            
+            .footer{
+                display: flex;
+                padding: 21px 60px;
+                align-items:stretch;
+                justify-content: space-around;
+                flex-direction: row;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .footer>div{
+                width: 296px;
+                margin: 15px;
+            }
+            .footer-rights{
+                text-align:center;
+                color:gray;
+                padding:12px 0;
+            }
+
+              @media  screen and (max-width:1400px) {
+                body{
+                    background-color:none;
+                }
+            
+            .box{
+                flex-direction:column;
+            }
+                .firstSection{
+                    flex-direction:column-reverse;
+                }
+                .leftSection{
+                    width:80%;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                .leftSection .btn{
+                    margin:10px;
+
+                }
+                .rightSection{
+                    width:720px;
+                }
+                .secondSection .Vertical{
+                    height:unset;
+                    width: 1px;
+                    margin:0px 80px;
+
+                }
+                .secondSection .box{
+                    width:81vw;
+                    height:1px;
+                    margin:27px 0;
+                }
+                .secondSection{
+                    max-width: 99vw;
+                    height:196vh;
+                }
+                .Vertical-title{
+                    left:47px;
+                    top:0px;
+                }
+                .Vertical-desc{
+                    top:12px;
+                }
+                nav{
+                    flex-direction:column;
+                
+                }
+                nav ul{
+                    flex-wrap:wrap;
+                }
+                .footer{
+                    justify-content: center;
+                    width:243px;
+                }
+                .footer>div{
+                    width:110px;
+                    margin:5px;
+                }
+            }
+
+          
+    </style>
+    
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Gangadhar's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Gangadhar </span> 
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <br>
+             
+       <button class="btn">Download Resume</button> 
+       <button class="btn"> Visit Github</button>
+             
+    </div>            
+           <div class="rightSection">
+                
+                <img src="img_4.png" alt="">
+                </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+            
+                <div class="Vertical">
+                    <img class="image-top" src="pk.png" alt="">
+                    <div class="Vertical-title">HTML Developer (2022)</div>
+                    <div class="Vertical-desc">
+                        Hi, I’m Codey! I’m a web developer with in-depth
+                         experience in UI/UX design.
+                          In a nutshell, I create websites 
+                          that help organizations address
+                        business challenges and meet their needs.
+                    </div>
+                </div>
+                <div class="Vertical">
+                    <img class="image-top" src="insta_logo.png" alt="">
+                    <div class="Vertical-title">node js devp(2023)</div>
+                    <div class="Vertical-desc">
+                        Hi, I’m Codey! I’m a web developer with in-depth
+                         experience in UI/UX design.
+                          In a nutshell, I create websites 
+                          that help organizations address
+                        business challenges and meet their needs.
+                    </div>    
+                </div>
+                <div class="Vertical">
+                    <img class="image-top" src="twitter-logo-2-1.png" alt="">
+                    <div class="Vertical-title">HTML Developer (2022)</div>
+                    <div class="Vertical-desc">
+                        Hi, I’m Codey! I’m a web developer with in-depth
+                         experience in UI/UX design.
+                          In a nutshell, I create websites 
+                          that help organizations address
+                        business challenges and meet their needs.
+                    </div>
+            </div>
+            <div class="Vertical">
+                <img class="image-top" src="facebook-logo-circle-transparent.png" alt="">
+                <div class="Vertical-title">node js(2023)</div>
+                <div class="Vertical-desc">
+                    Hi, I’m Codey! I’m a web developer with in-depth
+                     experience in UI/UX design.
+                      In a nutshell, I create websites 
+                      that help organizations address
+                    business challenges and meet their needs.
+                </div>
+            </div>
+                <div class="Vertical">
+                    <img class="image-top" src="node-js-tutorial.webp" alt="">
+                    <div class="Vertical-title">HTML Developer (2022)</div>
+                    <div class="Vertical-desc">
+                        Hi, I’m Codey! I’m a web developer with in-depth
+                         experience in UI/UX design.
+                          In a nutshell, I create websites 
+                          that help organizations address
+                        business challenges and meet their needs.
+                    </div>
+                    </div>
+
+                    <div class="Vertical">
+                        <img class="image-top" src="node-js-tutorial.webp" alt="">
+                        <div class="Vertical-title">HTML Developer (2022)</div>
+                        <div class="Vertical-desc">
+                            Hi, I’m Codey! I’m a web developer with in-depth
+                             experience in UI/UX design.
+                              In a nutshell, I create websites 
+                              that help organizations address
+                            business challenges and meet their needs.
+                        </div>
+                        </div>
+                    
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <div class="footer-first">
+            <h3>Gangadhar 's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-rights">
+            copyrights &#169; www.gangadharportfolio.com| All rights reserved 
+        </div>
+        
+        
+
+    
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video editior','Python Dev'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+</html>
